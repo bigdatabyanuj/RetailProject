@@ -20,7 +20,7 @@ def read_customers(spark,env):
 def get_orders_schema():
     schema = "order_id int,order_date string,customer_id int,order_status string"
     return schema
-
+# transformation 1
 #creating orders dataframe 
 def read_orders(spark,env):
     conf = ConfigReader.get_app_config(env)
