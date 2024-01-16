@@ -23,7 +23,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                echo "deploy completed successful"
+                echo "deploy completed successful transformation in main branch "
             }
         }
     }
